@@ -7,11 +7,11 @@ produtos = {
         'Descrição': 'Goiabada Ramy Fl 300g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 316.0
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 24,
-            'Peso Bruto': 7.36
+            'Peso Liquido Kg': 7.2
         },
         'Paletização': {
             'N CX Camada': 13,
@@ -23,11 +23,11 @@ produtos = {
         'Descrição': 'Amido de Milho Ramy 200g',
         'Validade': 18,
         'Unidade': {
-            'Peso Bruto g/kg': 224.0
+            'Peso Nominal g/kg': 200
         },
         'Cx Embarque': {
             'Quantidade': 24,
-            'Peso Bruto': 5.0
+            'Peso Liquido Kg': 4.8
         },
         'Paletização': {
             'N CX Camada': 13,
@@ -39,11 +39,11 @@ produtos = {
         'Descrição': 'Ketchup Ramy Trad. Frs 400g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 435.9
+            'Peso Nominal g/kg': 400
         },
         'Cx Embarque': {
             'Quantidade': 24,
-            'Peso Bruto': 10.48
+            'Peso Liquido Kg': 9.6
         },
         'Paletização': {
             'N CX Camada': 11,
@@ -55,11 +55,11 @@ produtos = {
         'Descrição': 'Molho de Tomate Peneirado Ramy Sachê 300g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 306.0
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 11.36
+            'Peso Liquido Kg': 10.8
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -71,11 +71,11 @@ produtos = {
         'Descrição': 'Mostarda Ramy Frs 190g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 209.0
+            'Peso Nominal g/kg': 190
         },
         'Cx Embarque': {
             'Quantidade': 24,
-            'Peso Bruto': 5.23
+            'Peso Liquido Kg': 4.56
         },
         'Paletização': {
             'N CX Camada': 15,
@@ -87,11 +87,11 @@ produtos = {
         'Descrição': 'Molho Mostarda Ramy Sachê Bico 180g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 185.0
+            'Peso Nominal g/kg': 180
         },
         'Cx Embarque': {
             'Quantidade': 32,
-            'Peso Bruto': 5.92
+            'Peso Liquido Kg': 9.6
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -103,11 +103,11 @@ produtos = {
         'Descrição': 'Maionese Tradicional Ramy Sachê Bico 180g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 185.0
+            'Peso Nominal g/kg': 180
         },
         'Cx Embarque': {
             'Quantidade': 32,
-            'Peso Bruto': 5.92
+            'Peso Liquido Kg': 6.35
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -119,11 +119,11 @@ produtos = {
         'Descrição': 'Ketchup de Tomate Trad. Ramy Sachê Bico 180g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 185.0
+            'Peso Nominal g/kg': 180
         },
         'Cx Embarque': {
             'Quantidade': 32,
-            'Peso Bruto': 5.92
+            'Peso Liquido Kg': 6.35
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -135,11 +135,11 @@ produtos = {
         'Descrição': 'Ketchup de Tomate Ramy Sachê Bico 300g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 305.0
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 11.42
+            'Peso Liquido Kg': 9.6
         },
         'Paletização': {
             'N CX Camada': 15,
@@ -151,11 +151,11 @@ produtos = {
         'Descrição': 'Molho Barbecue Ramy Sachê Bico 180g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 185.0
+            'Peso Nominal g/kg': 180
         },
         'Cx Embarque': {
             'Quantidade': 32,
-            'Peso Bruto': 5.92
+            'Peso Liquido Kg': 6.35
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -167,11 +167,11 @@ produtos = {
         'Descrição': 'Molho de Tomate Trad. Ramy Sachê 300g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 306
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 11.36
+            'Peso Liquido Kg': 10.8
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -183,11 +183,11 @@ produtos = {
         'Descrição': 'Extrato de Tomate Ramy Sachê 300g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 306
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 11.36
+            'Peso Liquido Kg': 10.8
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -199,11 +199,11 @@ produtos = {
         'Descrição': 'Molho de Tomate Manjericão Ramy Sachê 300g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 306.0
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 11.36
+            'Peso Liquido Kg': 10.8
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -215,11 +215,11 @@ produtos = {
         'Descrição': 'Molho de Tomate Pizza Ramy Sachê Bico 180g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 306.0
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 11.36
+            'Peso Liquido Kg': 10.8
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -231,11 +231,11 @@ produtos = {
         'Descrição': 'Molho de Tomate Ervas Finas Ramy Sachê 300g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 306.0
+            'Peso Nominal g/kg': 300
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 11.36
+            'Peso Liquido Kg': 10.8
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -247,11 +247,11 @@ produtos = {
         'Descrição': 'Molho de Tomate Trad. Ramy Sachê 1,7 Kg',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 1.73
+            'Peso Nominal g/kg': 1.7
         },
         'Cx Embarque': {
             'Quantidade': 6,
-            'Peso Bruto': 10.88
+            'Peso Liquido Kg': 10.2
         },
         'Paletização': {
             'N CX Camada': 10,
@@ -263,11 +263,11 @@ produtos = {
         'Descrição': 'Milho Sachê Ramy 1,7 Kg',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 1.73
+            'Peso Nominal g/kg': 1.7
         },
         'Cx Embarque': {
             'Quantidade': 6,
-            'Peso Bruto': 10.88
+            'Peso Liquido Kg': 10.2
         },
         'Paletização': {
             'N CX Camada': 7,
@@ -279,11 +279,11 @@ produtos = {
         'Descrição': 'Maionese Tradicional Ramy Mini Sachê 7g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 7.0089
+            'Peso Nominal g/kg': 7
         },
         'Cx Embarque': {
             'Quantidade': 144,
-            'Peso Bruto': 1.05
+            'Peso Liquido Kg': 1.01
         },
         'Paletização': {
             'N CX Camada': 36,
@@ -295,11 +295,11 @@ produtos = {
         'Descrição': 'Ketchup Tradicional Ramy Mini Sachê 7g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 7.0089
+            'Peso Nominal g/kg': 7
         },
         'Cx Embarque': {
             'Quantidade': 144,
-            'Peso Bruto': 1.05
+            'Peso Liquido Kg': 1.01
         },
         'Paletização': {
             'N CX Camada': 36,
@@ -311,11 +311,11 @@ produtos = {
         'Descrição': 'Mostarda Ramy Mini Sachê 7g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 7.0089
+            'Peso Nominal g/kg': 7
         },
         'Cx Embarque': {
             'Quantidade': 144,
-            'Peso Bruto': 1.05
+            'Peso Liquido Kg': 1.01
         },
         'Paletização': {
             'N CX Camada': 36,
@@ -327,11 +327,11 @@ produtos = {
         'Descrição': 'Milho Crocante ao Vapor Ramy Lt 170g',
         'Validade': 30,
         'Unidade': {
-            'Peso Bruto g/kg': 270.2
+            'Peso Nominal g/kg': 170
         },
         'Cx Embarque': {
             'Quantidade': 30,
-            'Peso Bruto': 7.15
+            'Peso Liquido Kg': 5.1
         },
         'Paletização': {
             'N CX Camada': 6,
@@ -343,11 +343,11 @@ produtos = {
         'Descrição': 'Ervilha Crocante ao Vapor Ramy Lt 170g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 236.8
+            'Peso Nominal g/kg': 170
         },
         'Cx Embarque': {
             'Quantidade': 30,
-            'Peso Bruto': 7.15
+            'Peso Liquido Kg': 5.1
         },
         'Paletização': {
             'N CX Camada': 6,
@@ -359,11 +359,11 @@ produtos = {
         'Descrição': 'Dueto Crocante ao Vapor Ramy 170g',
         'Validade': 12,
         'Unidade': {
-            'Peso Bruto g/kg': 236.8
+            'Peso Nominal g/kg': 170
         },
         'Cx Embarque': {
             'Quantidade': 30,
-            'Peso Bruto': 7.15
+            'Peso Liquido Kg': 5.1
         },
         'Paletização': {
             'N CX Camada': 6,
@@ -375,11 +375,11 @@ produtos = {
         'Descrição': 'Milho Verde em Conserva Ramy Sachê 170g',
         'Validade': 30,
         'Unidade': {
-            'Peso Bruto g/kg': 270.2
+            'Peso Nominal g/kg': 170
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 9.72
+            'Peso Liquido Kg': 6.12
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -391,11 +391,11 @@ produtos = {
         'Descrição': 'Dueto em Conserva Ramy Sachê 170g',
         'Validade': 30,
         'Unidade': {
-            'Peso Bruto g/kg': 270.2
+            'Peso Nominal g/kg': 170
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 9.72
+            'Peso Liquido Kg': 6.12
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -407,11 +407,11 @@ produtos = {
         'Descrição': 'Ervilha em Conserva Ramy Sachê 170g',
         'Validade': 30,
         'Unidade': {
-            'Peso Bruto g/kg': 270.2
+            'Peso Nominal g/kg': 170
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 9.72
+            'Peso Liquido Kg': 6.12
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -423,11 +423,11 @@ produtos = {
         'Descrição': 'Seleta de Legumes em Conserva Ramy Sachê 170g',
         'Validade': 30,
         'Unidade': {
-            'Peso Bruto g/kg': 270.2
+            'Peso Nominal g/kg': 170
         },
         'Cx Embarque': {
             'Quantidade': 36,
-            'Peso Bruto': 9.72
+            'Peso Liquido Kg': 6.12
         },
         'Paletização': {
             'N CX Camada': 16,
@@ -439,11 +439,11 @@ produtos = {
         'Descrição': 'Azeite de Oliva Extra Virgem Ramy Gf 500ml',
         'Validade': 24,
         'Unidade': {
-            'Peso Bruto g/kg': 826.0
+            'Peso Nominal g/kg': 826
         },
         'Cx Embarque': {
             'Quantidade': 12,
-            'Peso Bruto': 10.37
+            'Peso Liquido Kg': 9.92
         },
         'Paletização': {
             'N CX Camada': 26,
@@ -466,7 +466,7 @@ def main():  # Função principal, utilizada para iniciar o programa
 
                 1 - Obter Peso total em Kg, quantidade de caixas e pallets.
                 2 - Ver todos os itens cadastrados.
-                3 - Em construção.
+                3 - Obter quantidade de caixas a partir do peso em gramas.
 
                 9 - Encerra o programa.""")
 
@@ -491,12 +491,7 @@ def menu(opcao):  # Função utilizada para acessar o menu e definir o próximo 
         case 2:
             relatorio_prods()
         case 3:
-            print("Você selecionou: 3 - Em construção.")
-            sleep(1)
-            print("Função em construção, favor aguardar.")
-            sleep(3)
-            limpa_tela()
-            main()
+            convert_kg()
         case 9:
             print("Obrigado por utilizar o programa.")
             sleep(1)
@@ -519,7 +514,7 @@ def calc_peso_vol():  # Função utilizada para calcular o peso total do pedido 
                     achou = True
                     qtd_cx = int(input("\nInforme a quantidade de caixas do produto {0}: "
                                        .format(produtos[chave]['Descrição'])))
-                    soma = soma + (qtd_cx * produtos[chave]['Cx Embarque']['Peso Bruto'])
+                    soma = soma + (qtd_cx * produtos[chave]['Cx Embarque']['Peso Liquido Kg'])
                     volume = volume + qtd_cx
                     print("\n{0}".format("-*-" * 32))
                     contz += 1
@@ -529,12 +524,12 @@ def calc_peso_vol():  # Função utilizada para calcular o peso total do pedido 
     limpa_tela()
     qtd_pallets = math.ceil(volume / 96)
     peso_final = soma + (qtd_pallets * 30)
-    print("\n{0}\n".format("-*-" * 32))
+    print('-=\n' * 32)
     print("Peso total da carga: {0:.2f} Kg".format(soma))
     print("Volume total da carga: {0} caixas".format(volume))
     print("Quantidade total de pallets da carga: {0}".format(qtd_pallets))
     print("Peso total da carga com os pallets: {0:.2f} Kg".format(peso_final))
-    print("\n{0}\n".format("-*-" * 32))
+    print('\n-=' * 32)
     print("Em 5 segundos você poderá escolher novamente outra função.")
     sleep(5)
     main()
@@ -546,44 +541,53 @@ def relatorio_prods():  # Função utilizada para listar todos os produtos prese
     print("Vou te mostrar os produtos cadastrados.")
     sleep(1)
     for codigo, detalhes in produtos.items():
-        print('-=' * 80)
+        print('\n-=\n' * 32)
         print(f"Código do produto: {codigo}\n")
         print(f"Descrição: {detalhes['Descrição']}")
         print(f"Validade: {detalhes['Validade']} meses")
-        print(f"Unidade - Peso Bruto: {detalhes['Unidade']['Peso Bruto g/kg']:.2f} kg")
+        print(f"Unidade - Peso Nominal: {detalhes['Unidade']['Peso Nominal g/kg']:.2f} kg")
         print(f"Cx Embarque - Quantidade: {detalhes['Cx Embarque']['Quantidade']}")
-        print(f"Cx Embarque - Peso Bruto: {detalhes['Cx Embarque']['Peso Bruto']:.2f} kg")
+        print(f"Cx Embarque - Peso Liquido: {detalhes['Cx Embarque']['Peso Liquido Kg']:.2f} kg")
         print(f"Paletização - N° Cx p/ Camada: {detalhes['Paletização']['N CX Camada']}")
         print(f"Paletização - N° Camada p/ Pallet: {detalhes['Paletização']['N Camada Pallet']}")
         print(f"Paletização - N° Cx p/ Pallet: {detalhes['Paletização']['N CX Pallet']}")
         sleep(1)
-    print('-=' * 80)
+    print('\n-=' * 32)
     print("Em 5 segundos você poderá escolher novamente outra função.")
     sleep(5)
     main()
 
 
 def convert_kg():  # Função responsável por converter kg em Qtd de Cx
-    print("Você selecionou: 1 - Obter Peso total em Kg, quantidade de caixas e pallets.")
+    print("Você selecionou: 3 - Obter quantidade de caixas a partir do peso em quilogramas.")
     sleep(1)
-    qtd_itens = int(input("\nInforme a quantidade de itens/produtos no total: "))
-    qtd_cx = 0
-    kg_sku = 0
-    contz = 0
-    for cont in range(0, qtd_itens):
-        while contz < qtd_itens:
-            prod = str(input("\nInforme os três ultímos digitos do código do produto desejado: "))
-            achou = False
-            for chave in produtos:
-                if prod == chave:
-                    achou = True
-                    kg_sku = int(input("\nInforme a quantidade de kg do produto {0}: "
-                                       .format(produtos[chave]['Descrição'])))
-                    qtd_cx = qtd_cx + (kg_sku / produtos[chave]['Unidade']['Peso Bruto g/kg'])
-                    print("\n{0}".format("-*-" * 32))
-                    contz += 1
-                if not achou:
-                    print("\nProduto não encontrado. Tente novamente")
-                    sleep(1)
+    caixas = 0
+    prod = str(input("\nInforme os três ultímos digitos do código do produto desejado: "))
+    achou = False
+    for chave in produtos:
+        if prod == chave:
+            achou = True
+            kg_sku = float(
+                input("\nInforme a quantidade em gramas do produto {0}: ".format(produtos[chave]['Descrição'])))
+            unidades = kg_sku / produtos[chave]['Unidade']['Peso Nominal g/kg']
+            unidades = unidades / produtos[chave]['Cx Embarque']['Quantidade']
+            caixas = caixas + unidades
+            print('-=\n' * 32)
+            print("Com o peso em gramas informado,", end=" ")
+            print("serão necessários aproximadamente: {0} caixas do intem {1}".format(
+                math.ceil(caixas), produtos[chave]['Descrição']))
+            print('\n-=' * 32)
+            print("Em 5 segundos você poderá escolher novamente outra função.")
+            sleep(5)
+            main()
+    if not achou:
+        print("\nProduto não encontrado.")
+        sleep(2)
+        main()
+
+    limpa_tela()
+    sleep(4)
+    main()
+
 
 main()

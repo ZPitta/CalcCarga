@@ -1,7 +1,7 @@
 <h1 align='center'>Sistema de Gerenciamento de Produtos</h1>
 <p align='center'>
   <img loading='lazy' src='http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge' />
-  <img loading='lazy' src='https://img.shields.io/badge/VERSION-v1.2-blue?style=for-the-badge' />
+  <img loading='lazy' src='https://img.shields.io/badge/VERSION-v2.0-blue?style=for-the-badge' />
 </p>
 <h3>Descrição</h3>
 <p>Este código faz parte de um projeto em andamento para desenvolver um Sistema de Gestão de Produtos. O sistema visa fornecer diversas funcionalidades relacionadas ao gerenciamento e análise dos dados do produto, incluindo o cálculo do peso total em quilogramas, a quantidade de caixas e o número de paletes necessários para uma remessa. Ele também permite que os usuários visualizem informações detalhadas sobre cada produto armazenado no sistema.</p>

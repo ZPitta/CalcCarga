@@ -247,7 +247,7 @@ produtos = {
         'Descrição': 'Molho de Tomate Trad. Ramy Sachê 1,7 Kg',
         'Validade': 12,
         'Unidade': {
-            'Peso Nominal g/kg': 1.7
+            'Peso Nominal g/kg': 1700
         },
         'Cx Embarque': {
             'Quantidade': 6,
@@ -263,7 +263,7 @@ produtos = {
         'Descrição': 'Milho Sachê Ramy 1,7 Kg',
         'Validade': 12,
         'Unidade': {
-            'Peso Nominal g/kg': 1.7
+            'Peso Nominal g/kg': 1700
         },
         'Cx Embarque': {
             'Quantidade': 6,
@@ -507,7 +507,8 @@ def calc_peso_vol():  # Função utilizada para calcular o peso total do pedido 
     contz = 0
     for cont in range(0, qtd_itens):
         while contz < qtd_itens:
-            prod = str(input("\nInforme os três ultímos digitos do código do produto desejado: "))
+            print('\n{0}\n'.format("-=" * 40))
+            prod = str(input("Informe os três ultímos digitos do código do produto desejado: "))
             achou = False
             for chave in produtos:
                 if prod == chave:
@@ -516,7 +517,6 @@ def calc_peso_vol():  # Função utilizada para calcular o peso total do pedido 
                                        .format(produtos[chave]['Descrição'])))
                     soma = soma + (qtd_cx * produtos[chave]['Cx Embarque']['Peso Liquido Kg'])
                     volume = volume + qtd_cx
-                    print("\n{0}".format("-*-" * 32))
                     contz += 1
             if not achou:
                 print("\nProduto não encontrado. Tente novamente")
@@ -524,12 +524,12 @@ def calc_peso_vol():  # Função utilizada para calcular o peso total do pedido 
     limpa_tela()
     qtd_pallets = math.ceil(volume / 96)
     peso_final = soma + (qtd_pallets * 30)
-    print('-=\n' * 32)
+    print('{0}\n'.format("-=" * 40))
     print("Peso total da carga: {0:.2f} Kg".format(soma))
     print("Volume total da carga: {0} caixas".format(volume))
     print("Quantidade total de pallets da carga: {0}".format(qtd_pallets))
     print("Peso total da carga com os pallets: {0:.2f} Kg".format(peso_final))
-    print('\n-=' * 32)
+    print('\n{0}'.format("-=" * 40))
     print("Em 5 segundos você poderá escolher novamente outra função.")
     sleep(5)
     main()
@@ -541,7 +541,7 @@ def relatorio_prods():  # Função utilizada para listar todos os produtos prese
     print("Vou te mostrar os produtos cadastrados.")
     sleep(1)
     for codigo, detalhes in produtos.items():
-        print('\n-=\n' * 32)
+        print('\n{0}\n'.format("-=" * 40))
         print(f"Código do produto: {codigo}\n")
         print(f"Descrição: {detalhes['Descrição']}")
         print(f"Validade: {detalhes['Validade']} meses")
@@ -552,7 +552,7 @@ def relatorio_prods():  # Função utilizada para listar todos os produtos prese
         print(f"Paletização - N° Camada p/ Pallet: {detalhes['Paletização']['N Camada Pallet']}")
         print(f"Paletização - N° Cx p/ Pallet: {detalhes['Paletização']['N CX Pallet']}")
         sleep(1)
-    print('\n-=' * 32)
+    print('\n{0}'.format("-=" * 40))
     print("Em 5 segundos você poderá escolher novamente outra função.")
     sleep(5)
     main()
@@ -561,7 +561,6 @@ def relatorio_prods():  # Função utilizada para listar todos os produtos prese
 def convert_kg():  # Função responsável por converter kg em Qtd de Cx
     print("Você selecionou: 3 - Obter quantidade de caixas a partir do peso em quilogramas.")
     sleep(1)
-    caixas = 0
     prod = str(input("\nInforme os três ultímos digitos do código do produto desejado: "))
     achou = False
     for chave in produtos:
@@ -570,13 +569,12 @@ def convert_kg():  # Função responsável por converter kg em Qtd de Cx
             kg_sku = float(
                 input("\nInforme a quantidade em gramas do produto {0}: ".format(produtos[chave]['Descrição'])))
             unidades = kg_sku / produtos[chave]['Unidade']['Peso Nominal g/kg']
-            unidades = unidades / produtos[chave]['Cx Embarque']['Quantidade']
-            caixas = caixas + unidades
-            print('-=\n' * 32)
+            caixas = unidades / produtos[chave]['Cx Embarque']['Quantidade']
+            print('{0}\n'.format("-=" * 40))
             print("Com o peso em gramas informado,", end=" ")
-            print("serão necessários aproximadamente: {0} caixas do intem {1}".format(
+            print("serão necessários aproximadamente: {0} caixas do item {1}".format(
                 math.ceil(caixas), produtos[chave]['Descrição']))
-            print('\n-=' * 32)
+            print('\n{0}'.format("-=" * 40))
             print("Em 5 segundos você poderá escolher novamente outra função.")
             sleep(5)
             main()

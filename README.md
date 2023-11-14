@@ -1,7 +1,7 @@
 <h1 align='center'>Sistema de Gerenciamento de Produtos</h1>
 <p align='center'>
   <img loading='lazy' src='http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge' />
-  <img loading='lazy' src='https://img.shields.io/badge/VERSION-v2.01-blue?style=for-the-badge' />
+  <img loading='lazy' src='https://img.shields.io/badge/VERSION-v3.0-blue?style=for-the-badge' />
 </p>
 <h3>Descrição</h3>
 <p>Este código faz parte de um projeto em andamento para desenvolver um Sistema de Gestão de Produtos. O sistema visa fornecer diversas funcionalidades relacionadas ao gerenciamento e análise dos dados do produto, incluindo o cálculo do peso total em quilogramas, a quantidade de caixas e o número de paletes necessários para uma remessa. Ele também permite que os usuários visualizem informações detalhadas sobre cada produto armazenado no sistema.</p>
@@ -50,7 +50,8 @@
   </li>
 </ol>
 <h3>Atualizações</h3>
-<p>Foram realizadas alterações de correções, melhorias e padronizações no código. Também foi finalizado a implementação da função <strong><code>`convert_kg()`</code></strong> que estava em construção.</p>
+<p><span>08/2023 - </span>Foram realizadas alterações de correções, melhorias e padronizações no código. Também foi finalizado a implementação da função <strong><code>`convert_kg()`</code></strong> que estava em construção.</p>
+<p><span>11/2023 - </span>Foram realizadas alterações de correções, melhorias e padronizações no código, com foco na função <strong><code>`calc_peso_vol()`</code></strong>.</p>
 <h3>Uso</h3>
 <p>O programa permite que os usuários interajam com os dados do produto e executem várias tarefas, como calcular o peso da remessa e visualizar as informações do produto. Ao executar o código, o usuário é apresentado a um menu para selecionar opções. Dependendo da opção selecionada, o programa executará a tarefa correspondente.</p>
 <h3>Isenção de responsabilidade</h3>

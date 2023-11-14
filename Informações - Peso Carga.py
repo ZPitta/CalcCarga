@@ -511,7 +511,6 @@ def calc_peso_vol():  # Função utilizada para calcular o peso total do pedido 
         print(f'{"-=" * 40}')
         prod = str(input("Informe os três ultímos digitos do código do produto desejado: "))
         achou = False
-        print(f'{achou}\n{prod}')
         for chave in produtos:
             if prod == chave:
                 achou = True

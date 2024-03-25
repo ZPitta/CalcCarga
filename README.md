@@ -1,16 +1,15 @@
 <h1 align='center'>Sistema de Gerenciamento de Produtos</h1>
 <p align='center'>
   <img loading='lazy' src='http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge' />
-  <img loading='lazy' src='https://img.shields.io/badge/VERSION-v3.0-blue?style=for-the-badge' />
+  <img loading='lazy' src='https://img.shields.io/badge/VERSION-v4.0-blue?style=for-the-badge' />
 </p>
 <h3>Descrição</h3>
-<p>Este código faz parte de um projeto em andamento para desenvolver um Sistema de Gestão de Produtos. O sistema visa fornecer diversas funcionalidades relacionadas ao gerenciamento e análise dos dados do produto, incluindo o cálculo do peso total em quilogramas, a quantidade de caixas e o número de paletes necessários para uma remessa. Ele também permite que os usuários visualizem informações detalhadas sobre cada produto armazenado no sistema.</p>
-<p>Observe que o código ainda está em desenvolvimento e pode sofrer novas alterações.</p>
-<h3>Detalhes do Código</h3>
+<p>Este programa em Python foi desenvolvido para calcular o peso total de um pedido, a quantidade de caixas e pallets, com base nas informações dos produtos cadastrados. Além disso, oferece a opção de visualizar todos os produtos cadastrados e converter peso em gramas para a quantidade de caixas necessárias.</p>
+<h3>Funcionalidades</h3>
 <p>O código foi escrito em Python e inclui os seguintes componentes:</p>
 <ol>
   <li>
-    <p><strong>Dados do Produto:</strong>o código define um dicionário chamado <strong><code>`produtos`</code></strong> contendo informações sobre vários produtos.</p>
+    <p><strong>Obter Peso Total, Quantidade de Caixas e Pallets:</strong>o código define um dicionário chamado <strong><code>`produtos`</code></strong> contendo informações sobre vários produtos.</p>
     <p>Cada produto é identificado por um código único de três dígitos. As informações incluem a descrição do produto, período de validade, peso, detalhes da embalagem e informações sobre paletização.</p>
   </li>
   <li>
